@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.kcd.test.mapper.EmpMapper">
+
+	<resultMap type="EmpVo" id="empVo">
+		<id column="EMP_NO" property="empNo" />
+		<result column="NAME" property="name" />
+	</resultMap>
+
+	<select id="selectEmp" parameterType="EmpVo" resultType="empVo">
+		SELECT EMP_NO, NAME
+		FROM EMP
+		WHERE EMP_NO = #{empNo}
+	</select>
+
+	<insert id="insertEmp" parameterType="EmpVo">
+		INSERT INTO EMP(EMP_NO, NAME)
+		VALUE(#{empNo}, #{name})
+	</insert>
+
+</mapper>
