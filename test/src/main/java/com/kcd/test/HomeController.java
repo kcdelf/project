@@ -50,4 +50,19 @@ public class HomeController {
 		return "home";
 	}
 
+	@RequestMapping(value = "/user", method = RequestMethod.GET)
+	public String user(Locale locale, Model model) {
+		return "user";
+	}
+
+	@RequestMapping(value = "/admin", method = RequestMethod.GET)
+	public String admin(Locale locale, Model model) {
+		return "admin";
+	}
+
+	@RequestMapping(value = "/loginForm", method = RequestMethod.GET)
+	public String loginForm(Locale locale, Model model) {
+		return "loginForm";
+	}
+
 }
