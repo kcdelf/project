@@ -27,10 +27,12 @@
 	<jdbc:embedded-database id="dataSourceSpied" type="H2" />
 	-->
 
+	<!--
 	<jdbc:initialize-database data-source="dataSourceSpied" ignore-failures="DROPS">
 		<jdbc:script location="classpath*:schema.sql" />
-		<!-- jdbc:script location="classpath*:data.sql" / -->
+		<jdbc:script location="classpath*:data.sql" />
 	</jdbc:initialize-database>
+	-->
 
 	<bean id="dataSource" class="net.sf.log4jdbc.Log4jdbcProxyDataSource">
 		<constructor-arg ref="dataSourceSpied" />
