@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes" ?>
 <DBMODEL Version="4.0">
 <SETTINGS>
-<GLOBALSETTINGS ModelName="PM" IDModel="0" IDVersion="0" VersionStr="1.0.0.0" Comments="" UseVersionHistroy="1" AutoIncVersion="1" DatabaseType="MySQL" ZoomFac="100.00" XPos="0" YPos="480" DefaultDataType="5" DefaultTablePrefix="0" DefSaveDBConn="" DefSyncDBConn="" DefQueryDBConn="" Printer="" HPageCount="4.0" PageAspectRatio="1.440892512336408" PageOrientation="1" PageFormat="A4 (210x297 mm, 8.26x11.7 inches)" SelectedPages="" UsePositionGrid="0" PositionGridX="20" PositionGridY="20" TableNameInRefs="1" DefaultTableType="0" ActivateRefDefForNewRelations="1" FKPrefix="" FKPostfix="" CreateFKRefDefIndex="1" DBQuoteCharacter="`" CreateSQLforLinkedObjects="0" DefModelFont="Tahoma" CanvasWidth="4096" CanvasHeight="2842" />
+<GLOBALSETTINGS ModelName="PM" IDModel="0" IDVersion="0" VersionStr="1.0.0.0" Comments="" UseVersionHistroy="1" AutoIncVersion="1" DatabaseType="MySQL" ZoomFac="100.00" XPos="0" YPos="456" DefaultDataType="5" DefaultTablePrefix="0" DefSaveDBConn="" DefSyncDBConn="" DefQueryDBConn="" Printer="" HPageCount="4.0" PageAspectRatio="1.440892512336408" PageOrientation="1" PageFormat="A4 (210x297 mm, 8.26x11.7 inches)" SelectedPages="" UsePositionGrid="0" PositionGridX="20" PositionGridY="20" TableNameInRefs="1" DefaultTableType="0" ActivateRefDefForNewRelations="1" FKPrefix="" FKPostfix="" CreateFKRefDefIndex="1" DBQuoteCharacter="`" CreateSQLforLinkedObjects="0" DefModelFont="Tahoma" CanvasWidth="4096" CanvasHeight="2842" />
 <DATATYPEGROUPS>
 <DATATYPEGROUP Name="Numeric Types" Icon="1" />
 <DATATYPEGROUP Name="Date and Time Types" Icon="2" />
@@ -409,8 +409,9 @@
 </TABLE>
 <TABLE ID="1039" Tablename="TB_PART" PrevTableName="Table_04" XPos="686" YPos="127" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="7" >
 <COLUMNS>
-<COLUMN ID="1041" ColName="PART_ID" PrevColName="" Pos="0" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\198\196\198\174\190\198\192\204\181\240">
+<COLUMN ID="1041" ColName="PART_ID" PrevColName="" Pos="0" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\198\196\198\174\190\198\192\204\181\240">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
@@ -443,8 +444,9 @@
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1247" ColName="PART_ID" PrevColName="" Pos="1" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<COLUMN ID="1247" ColName="PART_ID" PrevColName="" Pos="1" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
@@ -474,8 +476,9 @@
 </TABLE>
 <TABLE ID="1057" Tablename="TB_PROJECT" PrevTableName="Table_06" XPos="21" YPos="333" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="11" >
 <COLUMNS>
-<COLUMN ID="1059" ColName="PROJECT_ID" PrevColName="PJT_ID" Pos="0" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\199\193\183\206\193\167\198\174\190\198\192\204\181\240">
+<COLUMN ID="1059" ColName="PROJECT_ID" PrevColName="PJT_ID" Pos="0" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\199\193\183\206\193\167\198\174\190\198\192\204\181\240">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
@@ -508,8 +511,9 @@
 </TABLE>
 <TABLE ID="1066" Tablename="TB_LINK" PrevTableName="Table_07" XPos="274" YPos="298" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="12" >
 <COLUMNS>
-<COLUMN ID="1068" ColName="LINK_ID" PrevColName="" Pos="0" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\184\181\197\169\190\198\192\204\181\240">
+<COLUMN ID="1068" ColName="LINK_ID" PrevColName="" Pos="0" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\184\181\197\169\190\198\192\204\181\240">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
@@ -552,8 +556,9 @@
 </TABLE>
 <TABLE ID="1078" Tablename="TB_REF" PrevTableName="Table_08" XPos="503" YPos="287" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="13" >
 <COLUMNS>
-<COLUMN ID="1080" ColName="REF_ID" PrevColName="" Pos="0" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\192\218\183\225\189\199\190\198\192\204\181\240">
+<COLUMN ID="1080" ColName="REF_ID" PrevColName="" Pos="0" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\192\218\183\225\189\199\190\198\192\204\181\240">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
@@ -566,13 +571,15 @@
 <OPTIONSELECTED>
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1084" ColName="FILE_ID" PrevColName="" Pos="3" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\195\183\186\206\190\198\192\204\181\240">
+<COLUMN ID="1084" ColName="FILE_ID" PrevColName="" Pos="3" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\195\183\186\206\190\198\192\204\181\240">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1085" ColName="CMT_ID" PrevColName="" Pos="4" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\180\241\177\219\190\198\192\204\181\240">
+<COLUMN ID="1085" ColName="CMT_ID" PrevColName="" Pos="4" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\180\241\177\219\190\198\192\204\181\240">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
@@ -609,15 +616,17 @@
 </INDEX>
 </INDICES>
 </TABLE>
-<TABLE ID="1092" Tablename="TB_FILE_LIST" PrevTableName="Table_09" XPos="732" YPos="407" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="14" >
+<TABLE ID="1092" Tablename="TB_FILE_LIST" PrevTableName="Table_09" XPos="732" YPos="409" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="14" >
 <COLUMNS>
-<COLUMN ID="1096" ColName="FILE_SN" PrevColName="" Pos="1" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\198\196\192\207\192\207\183\195\185\248\200\163">
+<COLUMN ID="1248" ColName="FILE_ID" PrevColName="" Pos="1" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1248" ColName="FILE_ID" PrevColName="" Pos="1" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<COLUMN ID="1096" ColName="FILE_SN" PrevColName="" Pos="1" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\198\196\192\207\192\207\183\195\185\248\200\163">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
@@ -652,8 +661,8 @@
 <INDICES>
 <INDEX ID="1112" IndexName="PRIMARY" IndexKind="0" FKRefDef_Obj_id="-1">
 <INDEXCOLUMNS>
-<INDEXCOLUMN idColumn="1096" LengthParam="0" />
 <INDEXCOLUMN idColumn="1248" LengthParam="0" />
+<INDEXCOLUMN idColumn="1096" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 <INDEX ID="1111" IndexName="TB_FILE_LIST_FKIndex1" IndexKind="1" FKRefDef_Obj_id="1109">
@@ -665,8 +674,9 @@
 </TABLE>
 <TABLE ID="1103" Tablename="TB_FILE" PrevTableName="Table_10" XPos="746" YPos="285" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="15" >
 <COLUMNS>
-<COLUMN ID="1105" ColName="FILE_ID" PrevColName="" Pos="0" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\198\196\192\207\190\198\192\204\181\240">
+<COLUMN ID="1105" ColName="FILE_ID" PrevColName="" Pos="0" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\198\196\192\207\190\198\192\204\181\240">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
@@ -689,8 +699,9 @@
 </TABLE>
 <TABLE ID="1114" Tablename="TB_CMT" PrevTableName="Table_11" XPos="740" YPos="590" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="17" >
 <COLUMNS>
-<COLUMN ID="1116" ColName="CMT_ID" PrevColName="" Pos="0" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\180\241\177\219\190\198\192\204\181\240">
+<COLUMN ID="1116" ColName="CMT_ID" PrevColName="" Pos="0" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\180\241\177\219\190\198\192\204\181\240">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
@@ -711,15 +722,17 @@
 </INDEX>
 </INDICES>
 </TABLE>
-<TABLE ID="1122" Tablename="TB_CMT_LIST" PrevTableName="Table_12" XPos="730" YPos="703" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="18" >
+<TABLE ID="1122" Tablename="TB_CMT_LIST" PrevTableName="Table_12" XPos="734" YPos="705" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="18" >
 <COLUMNS>
-<COLUMN ID="1129" ColName="CMT_SN" PrevColName="" Pos="1" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\180\241\177\219\192\207\183\195\185\248\200\163">
+<COLUMN ID="1249" ColName="CMT_ID" PrevColName="" Pos="1" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1249" ColName="CMT_ID" PrevColName="" Pos="1" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<COLUMN ID="1129" ColName="CMT_SN" PrevColName="" Pos="1" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\180\241\177\219\192\207\183\195\185\248\200\163">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
@@ -752,8 +765,8 @@
 <INDICES>
 <INDEX ID="1127" IndexName="PRIMARY" IndexKind="0" FKRefDef_Obj_id="-1">
 <INDEXCOLUMNS>
-<INDEXCOLUMN idColumn="1129" LengthParam="0" />
 <INDEXCOLUMN idColumn="1249" LengthParam="0" />
+<INDEXCOLUMN idColumn="1129" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 <INDEX ID="1126" IndexName="TB_CMT_LIST_FKIndex1" IndexKind="1" FKRefDef_Obj_id="1124">
@@ -763,14 +776,20 @@
 </INDEX>
 </INDICES>
 </TABLE>
-<TABLE ID="1140" Tablename="TB_DEPLOY" PrevTableName="Table_08" XPos="26" YPos="488" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="13" >
+<TABLE ID="1140" Tablename="TB_DEPLOY" PrevTableName="Table_08" XPos="26" YPos="488" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="\188\173\185\246\177\184\186\208\nD:\176\179\185\223, S:\189\186\197\215\192\204\194\161, P:\191\238\191\181\n\n\191\181\191\170\177\184\186\208\nW:WAS, D:DB\n\n" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="13" >
 <COLUMNS>
-<COLUMN ID="1141" ColName="DEPLOY_ID" PrevColName="REF_ID" Pos="0" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\185\232\198\247\190\198\192\204\181\240">
+<COLUMN ID="1141" ColName="DEPLOY_ID" PrevColName="REF_ID" Pos="0" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\185\232\198\247\190\198\192\204\181\240">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
 <COLUMN ID="1154" ColName="SERVER_FLAG" PrevColName="" Pos="10" idDatatype="19" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\188\173\185\246\177\184\186\208">
+<OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1286" ColName="SCOPE_FLAG" PrevColName="" Pos="15" idDatatype="19" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\191\181\191\170\177\184\186\208">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
@@ -788,13 +807,15 @@
 <OPTIONSELECTED>
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1144" ColName="FILE_ID" PrevColName="" Pos="3" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\195\183\186\206\190\198\192\204\181\240">
+<COLUMN ID="1144" ColName="FILE_ID" PrevColName="" Pos="3" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\195\183\186\206\190\198\192\204\181\240">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1145" ColName="CMT_ID" PrevColName="" Pos="4" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\180\241\177\219\190\198\192\204\181\240">
+<COLUMN ID="1145" ColName="CMT_ID" PrevColName="" Pos="4" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\180\241\177\219\190\198\192\204\181\240">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
@@ -815,6 +836,10 @@
 </OPTIONSELECTED>
 </COLUMN>
 <COLUMN ID="1160" ColName="ALLOW_DT" PrevColName="" Pos="14" idDatatype="15" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\189\194\192\206\192\207\192\218">
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1287" ColName="ALLOW_REJECT" PrevColName="REJECT" Pos="16" idDatatype="28" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\176\197\192\253\187\231\192\175">
 <OPTIONSELECTED>
 </OPTIONSELECTED>
 </COLUMN>
@@ -847,8 +872,9 @@
 </TABLE>
 <TABLE ID="1179" Tablename="TB_GUIDE" PrevTableName="Table_08" XPos="279" YPos="488" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="13" >
 <COLUMNS>
-<COLUMN ID="1180" ColName="GUIDE_ID" PrevColName="REF_ID" Pos="0" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\176\161\192\204\181\229\190\198\192\204\181\240">
+<COLUMN ID="1180" ColName="GUIDE_ID" PrevColName="REF_ID" Pos="0" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\176\161\192\204\181\229\190\198\192\204\181\240">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
@@ -861,13 +887,15 @@
 <OPTIONSELECTED>
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1183" ColName="FILE_ID" PrevColName="" Pos="3" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\195\183\186\206\190\198\192\204\181\240">
+<COLUMN ID="1183" ColName="FILE_ID" PrevColName="" Pos="3" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\195\183\186\206\190\198\192\204\181\240">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1184" ColName="CMT_ID" PrevColName="" Pos="4" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\180\241\177\219\190\198\192\204\181\240">
+<COLUMN ID="1184" ColName="CMT_ID" PrevColName="" Pos="4" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\180\241\177\219\190\198\192\204\181\240">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
@@ -904,10 +932,11 @@
 </INDEX>
 </INDICES>
 </TABLE>
-<TABLE ID="1193" Tablename="TB_FAULT" PrevTableName="Table_16" XPos="501" YPos="523" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="22" >
+<TABLE ID="1193" Tablename="TB_FAULT" PrevTableName="Table_16" XPos="501" YPos="523" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="\195\179\184\174\191\169\186\206\nN:\185\204\195\179\184\174, Y:\195\179\184\174\191\207\183\225\n\n\195\179\184\174\177\184\186\208\nZ:\a\a, C:\193\182\196\161\191\207\183\225, N:\176\225\199\212\190\198\180\212, A:\194\247\200\196\193\248\199\224, D:\176\225\199\212\193\223\186\185" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="22" >
 <COLUMNS>
-<COLUMN ID="1195" ColName="FAULT_ID" PrevColName="" Pos="0" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\176\225\199\212\190\198\192\204\181\240">
+<COLUMN ID="1195" ColName="FAULT_ID" PrevColName="" Pos="0" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\176\225\199\212\190\198\192\204\181\240">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
@@ -920,17 +949,24 @@
 <OPTIONSELECTED>
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1199" ColName="FILE_ID" PrevColName="" Pos="3" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\195\183\186\206\190\198\192\204\181\240">
+<COLUMN ID="1199" ColName="FILE_ID" PrevColName="" Pos="3" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\195\183\186\206\190\198\192\204\181\240">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1207" ColName="PART_ID" PrevColName="" Pos="11" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\198\196\198\174\190\198\192\204\181\240">
+<COLUMN ID="1207" ColName="PART_ID" PrevColName="" Pos="11" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\198\196\198\174\190\198\192\204\181\240">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
 <COLUMN ID="1204" ColName="CHARGERS" PrevColName="" Pos="8" idDatatype="20" DatatypeParams="(255)" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\180\227\180\231\192\218\181\233">
+<OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1295" ColName="PROC_YN" PrevColName="" Pos="14" idDatatype="19" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\195\179\184\174\191\169\186\206">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
@@ -944,7 +980,11 @@
 <OPTIONSELECTED>
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1205" ColName="PROC_DT" PrevColName="" Pos="9" idDatatype="14" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\195\179\184\174\192\207\192\218">
+<COLUMN ID="1205" ColName="PROC_DUE_DT" PrevColName="PROC_DT" Pos="9" idDatatype="14" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\195\179\184\174\191\185\193\164\192\207\192\218">
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1292" ColName="PROC_COM_DT" PrevColName="" Pos="13" idDatatype="14" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\195\179\184\174\191\207\183\225\192\207\192\218">
 <OPTIONSELECTED>
 </OPTIONSELECTED>
 </COLUMN>
@@ -975,10 +1015,11 @@
 </INDEX>
 </INDICES>
 </TABLE>
-<TABLE ID="1217" Tablename="TB_WORK" PrevTableName="Table_18" XPos="276" YPos="727" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="PROC_FLAG : A - \a\a, P - \193\248\199\224\193\223, C - \191\207\183\225\n=\g \176\162 \192\207\192\218\181\233\192\204 \192\212\183\194\181\199\184\233 \192\218\181\191 \188\177\197\195\181\202\n\nCHECK_FLAG : A - \a\a, P - \200\174\192\206\193\223, R - \186\184\191\207\191\228\195\187, C - \191\207\183\225\n=\g \193\247\193\162 \188\177\197\195\199\212\n\nWORK_FLAG : A - \a\a, N - \193\164\187\243, W - \176\230\176\237\n=\g \191\207\183\225\192\207\192\218\181\233\192\187 \186\241\177\179\199\207\191\169 \192\218\181\191 \188\177\197\195\181\202\n\n" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="23" >
+<TABLE ID="1217" Tablename="TB_WORK" PrevTableName="Table_18" XPos="276" YPos="727" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="\192\219\190\247\177\184\186\208(WORK_FLAG) \nZ:\a\a, P:\193\248\199\224\193\223, C:\191\207\183\225\n=\g \176\162 \192\207\192\218\181\233\192\204 \192\212\183\194\181\199\184\233 \192\218\181\191 \188\177\197\195\181\202, \200\174\192\206 \193\223\192\186 \193\247\193\162 \188\177\197\195\n\n\176\203\188\246\177\184\186\208(CHECK_FLAG)\nZ:\a\a, P:\200\174\192\206\193\223, R:\186\184\191\207\191\228\195\187, W:\192\231\192\219\190\247\191\228\195\187, C:\191\207\183\225\n=\g \193\247\193\162 \188\177\197\195\199\212\n\n\193\248\199\224\187\243\197\194(PROG_STATUS)\nZ:\a\a, N:\193\164\187\243, W:\176\230\176\237\n=\g \191\207\183\225\192\207\192\218\181\233\192\187 \186\241\177\179\199\207\191\169 \192\218\181\191 \188\177\197\195\181\202\n\n" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="23" >
 <COLUMNS>
-<COLUMN ID="1219" ColName="WORK_ID" PrevColName="" Pos="0" idDatatype="20" DatatypeParams="(20)" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\190\247\185\171\190\198\192\204\181\240">
+<COLUMN ID="1219" ColName="WORK_ID" PrevColName="" Pos="0" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\190\247\185\171\190\198\192\204\181\240">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
@@ -1008,12 +1049,12 @@
 <OPTIONSELECTED>
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1227" ColName="PROC_FLAG" PrevColName="" Pos="7" idDatatype="19" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\195\179\184\174\177\184\186\208">
+<COLUMN ID="1227" ColName="WORK_FLAG_2" PrevColName="PROC_FLAG" Pos="7" idDatatype="19" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\192\219\190\247\177\184\186\208">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1228" ColName="PROC_RATE" PrevColName="" Pos="8" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\195\179\184\174\192\178">
+<COLUMN ID="1228" ColName="WORK_RATE" PrevColName="PROC_RATE" Pos="8" idDatatype="4" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\192\219\190\247\192\178">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="0" />
 <OPTIONSELECT Value="0" />
@@ -1033,7 +1074,7 @@
 <OPTIONSELECTED>
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1233" ColName="WORK_FLAG" PrevColName="" Pos="12" idDatatype="19" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\190\247\185\171\193\248\199\224\177\184\186\208">
+<COLUMN ID="1233" ColName="PROG_STATUS" PrevColName="WORK_FLAG" Pos="12" idDatatype="19" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="\193\248\199\224\187\243\197\194">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
